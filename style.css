@@ -5,165 +5,443 @@
     margin: 0;
     font-family: "Roboto";
 }
-
 html {
     height: 100vh;
 }
-
-body {
-    background-image: url(./project10.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px 50px;
-    height: 15vh;
-}
-
-nav .logo {
-    display: flex;
-    align-items: center;
-    width: 300px;
-}
-
-.logo img {
-    width: 150px;
-}
-
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-    flex: 1;
-}
-
-.nav-items {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    font-size: 20px;
-    padding-bottom: 28px;
-    color: #ffffff;
-    gap: 30px;
-    border-bottom: 2px solid #ffffff;
-}
-
-
-.contact {
-    display: flex;
-    padding-left: 90px;
-    justify-content: flex-end;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #ffffff;
-    gap: 15px;
-}
-
-.contact p  {
-    font-size: 24px;
-    color: #ffffff;
-}
-
-main {
-    padding: 0 84px;
-}
-
-.first {
-    display: flex;
-    margin: 200px 0;
-}
-
-.heading {
-    flex: 75;
-    font-size: 80px;
-    color: #ffffff;
+@media screen and (min-width:900px) {
+    body {
+        background-image: url(./project10.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 50px;
+        height: 15vh;
+    }
+    
+    nav .logo {
+        display: flex;
+        align-items: center;
+        width: 300px;
+    }
+    
+    .logo img {
+        width: 150px;
+    }
+    
+    .nav-right {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+    }
+    
+    .nav-items {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        font-size: 20px;
+        padding-bottom: 28px;
+        color: #ffffff;
+        gap: 30px;
+        border-bottom: 2px solid #ffffff;
+    }
+    
+    
+    .contact {
+        display: flex;
+        padding-left: 90px;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #ffffff;
+        gap: 15px;
+    }
+    
+    .contact p  {
+        font-size: 24px;
+        color: #ffffff;
+    }
+    
+    main {
+        padding: 0 84px;
+    }
+    
+    .first {
+        display: flex;
+        margin: 200px 0;
+    }
+    
+    .heading {
+        flex: 75;
+        font-size: 80px;
+        color: #ffffff;
+        
+    }
+    
+    .info-first {
+        position: absolute;
+        left: 68%;
+        top: 38%;
+        align-self: flex-start;
+    }
+    
+    .second {
+        display: flex;
+    }
+    
+    .button {
+        flex: 1;
+        margin-top: -100px;
+    }
+    
+    .info-second {
+        flex: 1;
+    }
+    
+    .infocard {
+        background-color: #d1d1d150;
+        width: 220px;
+        color: #ffffff;
+        padding: 0px 60px;
+        position: relative;
+        bottom:150px;
+    }
+    
+    .infocard p {
+        font-size: 20px;
+    }
+    
+    .infocard p i {
+        background-color: #fff;
+        padding: 10px 25px;
+        color: #000;
+        border-radius: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .button a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px 50px;
+        font-size: 25px;
+        border: 3px solid #ffffff;
+        border-radius: 50px;
+    }
+    
+    .vertical-line{
+        width: 2px; 
+        background-color: #ffffff; 
+        height: 80px;
+        position: absolute;
+        left: 70%;
+        top: 100%;
+    }
+    
+    .horizontal-line {
+        width: 80px; 
+        background-color: #ffffff; 
+        height: 2px;
+        position: absolute;
+        left: 100%;
+        top: 50%;
+    }
+    
+    .circle {
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+    }
+    
+    .circle-first {
+        top: 148%;
+        left: 67.4%;
+    }
+    
+    .circle-second {
+        top: 45.2%;
+        left: 123.2%;
+    } 
 }
 
-.info-first {
-    position: absolute;
-    left: 68%;
-    top: 38%;
-    align-self: flex-start;
-}
+@media screen and (min-width:300px) and (max-width:600px){
+    body{
+        background-image: url(./project10.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%vh;
+        color: #fff;
+    }
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        height: 15vh;
 
-.second {
-    display: flex;
+    }
+    .logo img{
+        display: flex;
+        align-items: center;
+        width: 60px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+   
+    
+    .nav-right {
+        display: flex;
+        justify-content:space-evenly;
+        flex: 1;
+    }
+    
+    .nav-items {
+        padding-left: 15px;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        font-size: 10px;
+        padding-bottom: 25px;
+        color: #fff;
+        gap: 20px;
+        border-bottom: 2px solid #ffffff;
+    }
+    
+    
+    .contact {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #ffffff;
+        gap: 10px;
+    }
+    
+    .contact p  {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    main {
+        padding: 0 60px;
+    }
+    
+    .first {
+        display: flex;
+        margin: 150px 0;
+    }
+    
+    .heading {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        flex: 75;
+        font-size: 30px;
+        color: #fff;
+        
+    }
+    
+    .info-first {
+        position: absolute;
+        left:40%;
+        top: 40%;
+        align-self: flex-start;
+    }
+    
+    .second {
+        display: flex;
+    }
+    
+    .button {
+        flex: 1;
+        margin-top: 100px;
+    }
+    
+    .info-second {
+        flex: 1;
+    }
+    
+    .infocard {
+        background-color: #d1d1d150;
+        width: 180px;
+        color: black;
+        padding: 10px 40px;
+        position: relative;
+        bottom:150px;
+        right:150px;
+    }
+    
+    .infocard p {
+        font-size: 18px;
+    }
+    
+    .infocard p i {
+        background-color: #fff;
+        padding: 10px 25px;
+        color: #000;
+        border-radius: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .button a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 10px;
+        font-size: 15px;
+        border: 3px solid #ffffff;
+        border-radius: 50px;
+        position: relative;
+        bottom: 30px;
+    }
 }
+   
+@media screen and (min-width:600px) and (max-width:900px){
+    body {
+        background-image: url(./project10.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+   
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px 30px;
+        height: 10vh;
+    }
+    
+    nav .logo {
+        display: flex;
+        align-items: center;
+        width: 100px;
+    }
+    
+    .nav-right {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+    }
+    
+    .nav-items {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        font-size: 15px;
+        padding-bottom: 28px;
+        color: #ffffff;
+        gap: 20px;
+        border-bottom: 2px solid #ffffff;
+    }
+    
+    
+    .contact {
+        display: flex;
+        padding-left: 40px;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #ffffff;
+        gap: 10px;
+    }
+    
+    .contact p  {
+        font-size: 16px;
+        color: #ffffff;
+    }
+    
+    main {
+        padding: 0 70px;
+    }
+    
+    .first {
+        display: flex;
+        margin: 200px 0;
+    }
+    
+    .heading {
+        flex: 75;
+        font-size: 50px;
+        color: #ffffff;
+        
+    }
+    
+    .info-first {
+        position: absolute;
+        left:48%;
+        top: 38%;
+        align-self: flex-start;
+    }
+    
+    .second {
+        display: flex;
+    }
+    
+    .button {
+        flex: 1;
+        margin-top: -100px;
+    }
+    
+    .info-second {
+        flex: 1;
+    }
+    
+    .infocard {
+        background-color: #d1d1d150;
+        width: 220px;
+        color: #ffffff;
+        padding: 10px 40px;
+        position: relative;
+        bottom:150px;
+    }
+    
+    .infocard p {
+        font-size: 18px;
+    }
+    
+    .infocard p i {
+        background-color: #fff;
+        padding: 10px 25px;
+        color: #000;
+        border-radius: 40px;
+        margin-bottom: 15px;
+    }
+    
+    .button a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 12px 15px;
+        font-size: 25px;
+        border: 3px solid #ffffff;
+        border-radius: 50px;
 
-.button {
-    flex: 1;
-    margin-top: -100px;
-}
+    }
+    
+    .vertical-line{
+        width: 2px; 
+        background-color: #ffffff; 
+        height: 80px;
+        position: absolute;
+        left: 70%;
+        top: 100%;
+    }
+    
+    
+    .circle {
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+    }
+    
+    .circle-first {
+        top: 148%;
+        left: 67.4%;
+    }
+    
+ }
 
-.info-second {
-    flex: 1;
-}
 
-.infocard {
-    background-color: #d1d1d150;
-    width: 220px;
-    color: #ffffff;
-    padding: 0px 60px;
-    position: relative;
-    bottom:150px;
-}
-
-.infocard p {
-    font-size: 20px;
-}
-
-.infocard p i {
-    background-color: #fff;
-    padding: 10px 25px;
-    color: #000;
-    border-radius: 40px;
-    margin-bottom: 15px;
-}
-
-.button a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 15px 50px;
-    font-size: 25px;
-    border: 3px solid #ffffff;
-    border-radius: 50px;
-}
-
-.vertical-line{
-    width: 2px; 
-    background-color: #ffffff; 
-    height: 80px;
-    position: absolute;
-    left: 70%;
-    top: 100%;
-}
-
-.horizontal-line {
-    width: 80px; 
-    background-color: #ffffff; 
-    height: 2px;
-    position: absolute;
-    left: 100%;
-    top: 50%;
-}
-
-.circle {
-    width: 20px;
-    height: 20px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-}
-
-.circle-first {
-    top: 148%;
-    left: 67.4%;
-}
-
-.circle-second {
-    top: 45.2%;
-    left: 123.2%;
-}
